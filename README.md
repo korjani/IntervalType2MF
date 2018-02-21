@@ -19,21 +19,21 @@ The program calculate FOUs for three words and provide center of gravity of each
 
 2- set intervals in oneSubjectSshapeMF.R
 define end points for one subject interval
-## 1- On the scale of l to r, what are the endpoints of an interval of numbers ([aL,bL]) that you associate with the
-# left end-point of the word
-## 2- On the scale of l to r, what are the endpoints of an interval of numbers ([aR,bR]) that you associate with the
-# right end-point of the word
-# dataL = c(aL1, aR1, aL2, aR2, aL3, aR3)
-# dataR = c(bL1, bR1, bL2, bR2, bL3, bR3)
+
+    1- On the scale of l to r, what are the endpoints of an interval of numbers ([aL,bL]) that you associate with the left end-point of the word
+    2- On the scale of l to r, what are the endpoints of an interval of numbers ([aR,bR]) that you associate with the right end-point of the word
+dataL = c(aL1, aR1, aL2, aR2, aL3, aR3)
+dataR = c(bL1, bR1, bL2, bR2, bL3, bR3)
 
 3- run the program
-Results are stored in
-  MFsLow
-  MFsMod
-  MFsHig
-  CenterLow
-  CenterModerate
-  CenterHigh
+4- Results are stored in
+
+    MFsLow
+    MFsMod
+    MFsHig
+    CenterLow
+    CenterModerate
+    CenterHigh
 
 
 ```
