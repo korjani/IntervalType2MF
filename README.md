@@ -1,5 +1,5 @@
-# IntervalType2MF
-calculating interval type2 membership function 
+# Level 2 MF 
+calculating level2 type2 membership function 
 A New Method for Calibrating the Fuzzy Sets Used in fsQCA
 
 Mehdi Korjani,
