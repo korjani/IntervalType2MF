@@ -5,6 +5,8 @@
 ## use HMA algorithm and centoridIT2 
 source('HMA.R')
 source('centroidIT2.R')
+source('plotIT2.R')
+
 
 # define end points for one subject interval
 ## 1- On the scale of l to r, what are the endpoints of an interval of numbers ([aL,bL]) that you associate with the
@@ -51,4 +53,13 @@ MFsHig= FOU[[3]][1:9]
 CenterLow = FOU[[1]][10]
 CenterModerate = FOU[[2]][10]
 CenterHigh = FOU[[3]][10]
+
+plot.new()
+myplotIT2(MFsLow)
+par(new=TRUE)
+myplotIT2(MFsMod)
+par(new=TRUE)
+myplotIT2(MFsHig)
+
+
 
