@@ -15,7 +15,8 @@ J. Mendel, M. Korjani, "A New Method for Calibrating the Fuzzy Sets Used in fsQC
 The program calculate FOUs for three words and provide center of gravity of each FOU which can be used for assigning breakpoints in fsQCA and generate S-shape level2 MF
 
 1- install package: library(pracma)
-  install.packages('pracma')
+
+    install.packages('pracma')
 
 2- set intervals in oneSubjectSshapeMF.R
 define end points for one subject interval
