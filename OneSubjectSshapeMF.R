@@ -54,6 +54,7 @@ CenterLow = FOU[[1]][10]
 CenterModerate = FOU[[2]][10]
 CenterHigh = FOU[[3]][10]
 
+## plot IT2 MF
 plot.new()
 myplotIT2(MFsLow)
 par(new=TRUE)
@@ -62,4 +63,20 @@ par(new=TRUE)
 myplotIT2(MFsHig)
 
 
+## Ragin's S-shape MF
+dataRange= seq(0,10,length=100)
+MF =c()
+for(x in 1:100){
+  x1 = x/10
+  if( x1 >= CenterModerate) {
+    z=3*(x1-CenterModerate)/(CenterHigh-CenterModerate)
+  }else{
+    z=3*(x1-CenterModerate)/(CenterModerate-CenterLow)
+  }
+  out=exp(z)/(1+exp(z))
+  MF = c(MF,out)
+}
+
+plot.new()
+plot(dataRange,MF,type="l", xlim=c(0, 10))
 
