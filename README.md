@@ -11,23 +11,25 @@ The IA, EIA and HMA were all initially developed assuming that data can be colle
 
 J. Mendel, M. Korjani, "A New Method for Calibrating the Fuzzy Sets Used in fsQCA," Information science, 2018
 
-## how to run the ```
+## how to run the
 The program calculate FOUs for three words and provide center of gravity of each FOU which can be used for assigning breakpoints in fsQCA and generate S-shape level2 MF
 
-1- install package: library(pracma)
+### 1- install package: library(pracma)
 
     install.packages('pracma')
 
-2- set intervals in oneSubjectSshapeMF.R
+### 2- set intervals in oneSubjectSshapeMF.R
 define end points for one subject interval
 
     1- On the scale of l to r, what are the endpoints of an interval of numbers ([aL,bL]) that you associate with the left end-point of the word
     2- On the scale of l to r, what are the endpoints of an interval of numbers ([aR,bR]) that you associate with the right end-point of the word
 dataL = c(aL1, aR1, aL2, aR2, aL3, aR3)
+
 dataR = c(bL1, bR1, bL2, bR2, bL3, bR3)
 
-3- run the program
-4- Results are stored in
+### 3- run the program
+
+### 4- Results are stored in
 
     MFsLow
     MFsMod
@@ -36,5 +38,3 @@ dataR = c(bL1, bR1, bL2, bR2, bL3, bR3)
     CenterModerate
     CenterHigh
 
-
-```
