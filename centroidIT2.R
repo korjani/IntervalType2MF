@@ -7,7 +7,7 @@ centroidIT2 = function(A){
   # [CA, CAl, CAr]=centroidIT2(A)
   #
   # To compute the centroid of an IT2 FS, which is defined by nine
-  # parameters (a, b, c, d, e, f, g, i, h) shown in Fig. 1 of Readme.doc. 
+  # parameters (p1, p2, p3, p4, p5, p6, p7, p8, p9) shown in Figure of README.md. 
   # 
   # Author: Mehdi Korjani: korjani@gmail.com
   #
