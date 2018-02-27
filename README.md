@@ -21,7 +21,10 @@ You need to install R (https://www.r-project.org) and R Studio (https://www.rstu
 ### 2- Install R package: library(pracma)
 
     install.packages('pracma')
-    
+
+    go to RStudio->tool->install Packages
+    and add "pracma" to packages then install
+
 ### 3- Download the package on your computer
 
 you can download it https://github.com/korjani/Level2Type2MF/archive/master.zip
@@ -44,20 +47,16 @@ dataR = c(bL1, bR1, bL2, bR2, bL3, bR3)
 
 ### 6- Run the program in R
 
-### 7- Results are stored in: 
+### 7- Results are stored in:
 
-    MFsLow: 
+    MFsLow:
     MFsMod
     MFsHig
     CenterLow: Low membership breakpoint (fully out)
     CenterModerate: Moderate membership breakpoint (nor fully in nor out)
     CenterHigh: high membership breakpoint (fully in)
-    
+
     FOUs has nine parameters:
     (p1, p2, p3, p4, p5, p6, p7, p8, p9)
-    
-![FOU](FOU.png)
-    
-    
-    
 
+![FOU](FOU.png)
