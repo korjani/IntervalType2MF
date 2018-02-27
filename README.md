@@ -11,14 +11,14 @@ The IA, EIA and HMA were all initially developed assuming that data can be colle
 
 J. Mendel, M. Korjani, "A New Method for Calibrating the Fuzzy Sets Used in fsQCA," Information science, 2018
 
-## how to run the program
+## How to run the program
 The program calculate FOUs for three words and provide FOU and center of set of each FOU which can be used for assigning breakpoints in fsQCA and generate S-shape level2 MF,
 It also illustrates FOU to see the MFs
 
 ### 1- Install R and R Studio
 You need to install R (https://www.r-project.org) and R Studio (https://www.rstudio.com/products/rstudio/download/)
 
-### 2- install R package: library(pracma)
+### 2- Install R package: library(pracma)
 
     install.packages('pracma')
     
@@ -31,9 +31,9 @@ or
 You can clone the repository in the terminal: git clone git@github.com:korjani/Level2Type2MF.git
 
 
-### 4- go to the directory folder
+### 4- Go to the directory folder
 
-### 5- set intervals in oneSubjectSshapeMF.R
+### 5- Set intervals in oneSubjectSshapeMF.R
 define end points for one subject interval
 
     1- On the scale of l to r, what are the endpoints of an interval of numbers ([aL,bL]) that you associate with the left end-point of the word
@@ -42,7 +42,7 @@ dataL = c(aL1, aR1, aL2, aR2, aL3, aR3)
 
 dataR = c(bL1, bR1, bL2, bR2, bL3, bR3)
 
-### 6- run the program in R
+### 6- Run the program in R
 
 ### 7- Results are stored in: 
 
