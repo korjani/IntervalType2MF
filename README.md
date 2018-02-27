@@ -56,7 +56,7 @@ dataR = c(bL1, bR1, bL2, bR2, bL3, bR3)
     FOUs has nine parameters:
     (p1, p2, p3, p4, p5, p6, p7, p8, p9)
     
-    ![Alt text](./FOU.png?raw=true "FOU")
+    ![Alt text](FOU.png?raw=true "FOU")
     
     The program also show FOU to make sure that computation
     
