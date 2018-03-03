@@ -34,7 +34,7 @@ or
 You can clone the repository in the terminal: git clone git@github.com:korjani/Level2Type2MF.git
 
 
-### 4- Go to the directory folder
+### 4- In RStudio->file-open project select the the folder that you downloaded. Then Select oneSubjectSshapeMF.R file
 
 ### 5- Set intervals in oneSubjectSshapeMF.R
 define end points for one subject interval
@@ -45,7 +45,7 @@ dataL = c(aL1, aR1, aL2, aR2, aL3, aR3)
 
 dataR = c(bL1, bR1, bL2, bR2, bL3, bR3)
 
-### 6- Run the program in R
+### 6- Run the program in R using Run button on the scripts 
 
 ### 7- Results are stored in:
 
