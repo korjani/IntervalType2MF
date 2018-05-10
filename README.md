@@ -1,8 +1,8 @@
 # Level 2 MF
-calculating level2 type2 membership function
-A New Method for Calibrating the Fuzzy Sets Used in fsQCA
+calculating New Membership Function for fsQCA 
+Paper: J. Mendel and M. Korjani, "A New Method for Calibrating the Fuzzy Sets Used in fsQCA," submitted to Information Science, 2018
 
-Mehdi Korjani,
+Author: Mehdi Korjani,korjani at gmail.com
 
 ##
 A number of methods have been published on how to map data collected from a group of subjects into the FOU of a word. The Interval Approach (IA) was the first such method; it was followed by the Enhanced Interval Approach (EIA) , which makes use of more information from the collected data than does the IA. More recently, the HM Approach (HMA) was developed; it makes use of even more information from the collected data than does the EIA.
