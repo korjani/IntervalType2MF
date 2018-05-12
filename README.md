@@ -1,8 +1,8 @@
 # Level 2 MF
-calculating level2 type2 membership function
-A New Method for Calibrating the Fuzzy Sets Used in fsQCA
+calculating New Membership Function for fsQCA 
+Paper: J. Mendel and M. Korjani, "A New Method for Calibrating the Fuzzy Sets Used in fsQCA," submitted to Information Science, 2018
 
-Mehdi Korjani,
+Author: Mehdi Korjani,korjani at gmail.com
 
 ##
 A number of methods have been published on how to map data collected from a group of subjects into the FOU of a word. The Interval Approach (IA) was the first such method; it was followed by the Enhanced Interval Approach (EIA) , which makes use of more information from the collected data than does the IA. More recently, the HM Approach (HMA) was developed; it makes use of even more information from the collected data than does the EIA.
@@ -34,7 +34,7 @@ or
 You can clone the repository in the terminal: git clone git@github.com:korjani/Level2Type2MF.git
 
 
-### 4- Go to the directory folder
+### 4- In RStudio->file-open project select the the folder that you downloaded. Then Select oneSubjectSshapeMF.R file
 
 ### 5- Set intervals in oneSubjectSshapeMF.R
 define end points for one subject interval
@@ -45,7 +45,7 @@ dataL = c(aL1, aR1, aL2, aR2, aL3, aR3)
 
 dataR = c(bL1, bR1, bL2, bR2, bL3, bR3)
 
-### 6- Run the program in R
+### 6- Run the program in R using Run button on the scripts 
 
 ### 7- Results are stored in:
 
