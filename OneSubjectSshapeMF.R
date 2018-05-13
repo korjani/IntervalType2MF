@@ -1,6 +1,10 @@
-## extraction Level 2 membership function (S-shape) for fsQCA
-# Author: Mehdi Korjani: korjani@gmail.com
-# 2-20-2018
+## fsQCA new calibration method: extraction Level 2 membership function (S-shape) for fsQCA
+# Author: Mehdi Korjani
+# email: korjani@gmail.com
+# 5-12-2018
+
+library('tools')
+package_dependencies(packages ='pracma')
 
 ## use HMA algorithm and centoridIT2 
 source('HMA.R')

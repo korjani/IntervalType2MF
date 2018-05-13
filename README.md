@@ -2,7 +2,9 @@
 Calculating New Membership Function for fsQCA
 Paper: J. Mendel and M. Korjani, "A New Method for Calibrating the Fuzzy Sets Used in fsQCA," submitted to Information Science, 2018
 
-Author: Mehdi Korjani, korjani at gmail.com
+Type: Package
+Author: Mehdi Korjani,
+email: korjani at gmail.com
 
 ##
 A number of methods have been published on how to map data collected from a group of subjects into the FOU of a word. The Interval Approach (IA) was the first such method; it was followed by the Enhanced Interval Approach (EIA) , which makes use of more information from the collected data than does the IA. More recently, the HM Approach (HMA) was developed; it makes use of even more information from the collected data than does the EIA.
@@ -27,11 +29,13 @@ You need to install R (https://www.r-project.org) and R Studio (https://www.rstu
 
 ### 3- Download the package on your computer
 
-you can download it https://github.com/korjani/Level2Type2MF/archive/master.zip
+You can download it https://github.com/korjani/Level2Type2MF/archive/master.zip
 
 or
 
 You can clone the repository in the terminal: git clone git@github.com:korjani/Level2Type2MF.git
+
+Also the package is included in R CRAN webserver
 
 
 ### 4- In RStudio->file-open project select the the folder that you downloaded. Then Select oneSubjectSshapeMF.R file
