@@ -1,11 +1,13 @@
 Package: fsQCAcalibrationMethod
-Title: FsQCA New Calibration Method: Type2 Level2 MF
+Title:  A New Method for Calibrating the Fuzzy Sets Used in fsQCA
 Version: 1.0
-Authors@R: person("Mehdi", "Korjani", email = "korjani@gmail.com", role = c("aut", "cre"))
-Author: Mehdi korjani
+Authors@R: c(person("Mehdi", "Korjani",   email ="korjani@gmail.com", role = c("aut", "cre")))
+Author: Mehdi Korjani [aut, cre]
 Maintainer: Mehdi Korjani <korjani@gmail.com>
-Description: New method for calibration fuzzy set in fsQCA, for more information please read Paper: J. Mendel and M. Korjani, "A New Method for Calibrating the Fuzzy Sets Used in fsQCA," submitted to Information Science, 2018
+Description: New method for calibration fuzzy set in fsQCA. For more information please read Paper: J. Mendel and M. Korjani, "A New Method for Calibrating the Fuzzy Sets Used in fsQCA," submitted to Information Science, 2018.
 Depends: R (>= 3.3.3)
-License: MIT
+License: MIT + file LICENSE
 Imports: pracma
 URL: https://github.com/korjani/Level2Type2MF
+
+
