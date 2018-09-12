@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+centroidIT2.R
+EKM.R
+HMA.R
+mg.R
+OneSubjectSshapeMF.R
+plotIT2.R
+ToleranceFactor.R
+trapmf.R

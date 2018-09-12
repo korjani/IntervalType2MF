@@ -1,13 +1,10 @@
 Package: fsQCAcalibrationMethod
 Title:  A New Method for Calibrating the Fuzzy Sets Used in fsQCA
-Version: 1.0
+Version: 1.1.1
 Authors@R: c(person("Mehdi", "Korjani",   email ="korjani@gmail.com", role = c("aut", "cre")))
-Author: Mehdi Korjani [aut, cre]
-Maintainer: Mehdi Korjani <korjani@gmail.com>
 Description: New method for calibration fuzzy set in fsQCA. For more information please read Paper: J. Mendel and M. Korjani, "A New Method for Calibrating the Fuzzy Sets Used in fsQCA," submitted to Information Science, 2018.
-Depends: R (>= 3.3.3)
 License: MIT + file LICENSE
+Depends: R (>= 3.3.3)
 Imports: pracma
 URL: https://github.com/korjani/Level2Type2MF
-
-
+Encoding: UTF-8
